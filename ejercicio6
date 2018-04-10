@@ -1,0 +1,18 @@
+#include <math.h>
+#include <stdio.h>
+
+int main()
+{
+	int gal;
+	float galon, precio, litros;
+	
+	printf("Buenos dias, ingrese la cantidad de Galones que llevara""\n");
+	scanf("%d",&gal);
+	litros=(gal*3.785);
+	precio=(litros*820);
+	printf("usted tiene:%f litros", litros);
+	printf("\n");
+	printf("debe pagar un total de:%f pesos", precio);
+	return 0;
+}
+
