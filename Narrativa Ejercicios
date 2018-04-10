@@ -1,0 +1,18 @@
+Primer Caso:
+Ingresamos el numero de nuestra matricula, para identificarnos quienes somos.
+ingresamos nuestras 3 calificaciones 
+Finalmente nos entrega nuestro promedio de las 3 calificaciones junto con nuestra matricula.
+
+Segundo Caso:
+ingresamos un numero entero positivo
+el programas nos arrojara nuestro numero elevado a su cuadrado y al cubo.
+
+Tercer Caso:
+Tenemos que ingresar el valor de los 2 catetos que necesitamos para obtener su hipotenusa.
+finalmente nos arroja el resultado mostrando nuestra hipotenusa al cuadrado.
+
+Cuarto Caso:
+Ingresamos la altura y la base de nuestro rectangulo
+nos calculara nuestro perimetro y superficie
+arroja los resultados
+
