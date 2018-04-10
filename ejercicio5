@@ -1,0 +1,25 @@
+#include <math.h>
+#include <stdio.h>
+#define string[MAX_LEN_999]
+int main ()
+{
+	char dino[99];
+	float peso, tama, pesl, taml;
+	
+	printf("nombre del dinosaurio");
+	printf("\n");
+	scanf("%s",&dino);
+	printf("ingrese el peso del dinosaurio en kg");
+	printf("\n");
+	scanf("%f",&peso);
+	printf("ingrese el tamaño del dinosaurio en metros");
+	printf("\n");
+	scanf("%f",&tama);
+	system("clear");
+	pesl=(peso*0,45);
+	taml=(tama*0,3048);
+	printf("\n su dinosaurio:%s", dino);
+	printf("\n tiene un tamaño en pies de:%f", pesl);
+	printf("\n tiene un peso en libras de:%f", taml);
+	return 0;
+}
