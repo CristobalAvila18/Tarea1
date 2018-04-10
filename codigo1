@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <math.h>
+
+void main (void)
+
+{
+	int m;
+	float c1, c2, c3, p;
+	printf("Ingrese su numero de matricula");
+	printf("\n");
+	scanf("%d",&m);
+	printf("ingrese sus 3 calificaciones");
+	printf("\n");
+	scanf("%f",&c1);
+	scanf("%f",&c2);
+	scanf("%f",&c3);
+	printf("\n");
+	p= (c1+c2+c3) / 3;
+	printf("\n");
+	printf("el Alumno:%d", m);
+	printf("\n");
+	printf("tiene un promedio de:%f", p);
+	
+	return 0;
+}
+
