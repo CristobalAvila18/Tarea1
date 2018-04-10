@@ -1,0 +1,20 @@
+#include <math.h>
+#include <stdio.h>
+
+int main()
+{
+	int cateto1, cateto2, hipo;
+	printf("ingrese el valor de los catetos");
+	printf("\n");
+	scanf("%d",&cateto1);
+	printf("\n");
+	scanf("%d",&cateto2);
+	hipo= (cateto1*cateto1)+(cateto2*cateto2);
+	printf("\n");
+	printf("la hipotenusa al cuadrado es:%d", hipo);
+	
+	
+	
+	return 0;
+}
+
