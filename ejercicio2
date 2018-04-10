@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+	int n, cubo, cua;
+	printf("ingrese un numero entero positivo");
+	printf("\n");
+	scanf("%d",&n);
+	cubo= (n*n*n);
+	cua= (n*n);
+	printf("el cuadrado del numero es:%d", cua);
+	printf("\n");
+	printf("el cubo del numero es:%d", cubo);
+	return 0;
+}
