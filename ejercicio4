@@ -1,0 +1,20 @@
+#include <math.h>
+#include <stdio.h>
+
+int main()
+{
+	int altura, base, su, pe;
+	printf("ingrese la altura del rectangulo");
+	printf("\n");
+	scanf("%d",&altura);
+	printf("ingrese la base del rectangulo");
+	printf("\n");
+	scanf("%d",&base);
+	pe=(base+altura)*2;
+	su=(base*altura);
+	printf("el perimetro del rectangulo es:%d",pe);
+	printf("\n");
+	printf("la superficie de este es:%d",su);
+	return 0;
+}
+
